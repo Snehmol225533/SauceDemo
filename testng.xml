@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.SauceDemo.TestClasses.TC07Filter"/>
+      <class name="com.SauceDemo.TestClasses.TC01LoginFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.testbaseClass"/>
+      <class name="com.SauceDemo.TestClasses.TC04MultipleProductSelection"/>
+      <class name="com.SauceDemo.TestClasses.TC03SingleProductSelectFunctionality"/>
+      <class name="com.SauceDemo.TestClasses.TC02LogOut"/>
+      <class name="com.SauceDemo.TestClasses.TC05CheckBuyProduct"/>
+      <class name="com.SauceDemo.TestClasses.TC06Checkout"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
